@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>new tab</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<style type="text/css">
+		*{
+			padding: 0px;
+			margin: 0px;
+			 
+		}
+		.upper-header{
+			background-color: whitesmoke;
+			width: 100%;
+			display: flex;
+			color: white;
+
+		}
+        .upper-header a{
+        	margin-left: 15px;
+        	font-size: 20px;
+        	text-decoration: none;
+        	color: black;
+
+        }
+        .upper-header a i{
+        	font-size: 20px;
+        	padding-right: 2px;
+        	color: black;
+        }
+        .logo{
+          font-size: 25px;
+          text-decoration: none;
+          margin: 5px;
+          color: black;
+
+        }
+        .header {
+        	display: flex;
+        }   
+        .header ul {
+        	display: flex;
+        	margin: 10px;
+        	font-size: 18px;
+
+
+
+
+        }
+        .header ul li {
+        	list-style-type: none;
+
+
+        } 
+        .header ul li a{
+        	text-decoration: none;
+        	margin: 10px;
+        	color: darkmagenta;
+
+        }
+        .dropdown ul{
+        	display: block;
+
+        	position: absolute;
+        	z-index: 3;
+        	background-color: whitesmoke;
+        	   
+
+
+        }
+        .dropdown ul li{
+        	margin-left:-10px;
+        	display: none;
+        }
+         .dropdown ul li a {
+         	 display: block;
+         }
+
+
+        .front{
+        	 background-color: aqua;
+        	 background-size: cover;
+        	 width: 100%;
+        	 
+        }
+        .front img{
+        	background-size: cover;
+        }
+
+
+
+         
+	</style>
+        
+        
+</head>
+<body>
+	 <div class="upper-header">
+	 	<a href="#"><i class="fa-solid fa-envelope"></i>contactus@gmail.com</a>
+	 	<a href="#"><i class="fa-brands fa-whatsapp"></i>watsapp@contactus</a>
+	 </div>
+	 <div class="header">
+	 	<a href="#" class="logo">Love With <span style="color: ;"> Us</span></a>
+	 	 <ul>
+
+	 	 	<li><a href="" style="color: blue; ">home</a></li>
+	 	 	<li><a href="">our services</a>
+           <div class="dropdown"> <ul>
+            	<li><a href="#">logo designing</a> </li>
+            	<li><a href="#">video status</a> </li>
+            </ul></div>
+	 	 	</li>
+	 	 	<li><a href="">contact us</a></li>
+	 	 	<li><a href="">about us</a></li>
+	 	 	 
+	 	 </ul>
+	 </div>
+	 <div class="front">
+	 	 <img src="ishq.jpg" width="1370px"  height="500px">
+	 </div>
+</body>
+</html>

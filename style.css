@@ -1,0 +1,228 @@
+ 
+		*{
+                padding: 0px;
+                margin: 0px;
+		}
+    @media screen and (max-width: 300px){
+     
+      .logo a {
+        font-size: 18px;
+      }
+      .left-button {
+        margin-top:85px ;
+        margin-left: 2px;
+
+      }
+      .tv{
+        margin-top: 85px;
+      }
+
+    }
+    @media screen and (min-width: 410px) and (max-width: 700px){
+           .heading h1{
+            color: red;
+             
+             margin-top: -100px;
+           }
+           .input{
+          display: none;
+
+           }
+           .contact-us-btn{
+
+             margin-top: -30px;
+         margin-left:-50px;
+
+             }
+             .icons{
+                position:absolute;
+               left:70%;
+                 }
+
+
+     
+
+    }
+		.container{
+			background: #FFEFD5;
+			width: 100%;
+			height: 100vh;
+		}
+		.logo{
+			position: absolute;
+			top: 2%;
+			left: 5%;
+			font-family: 'Fredoka One', cursive;
+			font-size: 30px;
+		}
+		.logo a{
+			text-decoration: none;
+			color: black;
+		}
+		.left-button{
+          position: absolute;
+          right: 10%;
+          top: 3%;
+          border: solid 0.5px black;
+
+		}
+
+		.left-button a{
+                              text-decoration: none;
+                              color: black;
+                              padding: 5px 10px;
+                              font-size: 20px;
+                              font-family: 'Fredoka One', cursive;
+
+   		}
+
+
+             .tv{
+              position: absolute;
+              left: 91%;
+              top: 3%;
+              font-size: 30px;
+             }
+
+
+
+          .heading{
+          	position: absolute;
+          	top: 30%;
+          	left: 20%;
+
+          }
+          .heading h1{
+          	font-size: 70px;
+
+          }
+            .heading p{
+            	font-size: 25px;
+            	margin: 10px;
+            	font-family: 'Fredoka One', cursive;
+            }
+               .input {
+                text-align: center;
+                margin-top:60px ;
+
+                 
+
+
+               }
+                .input input{
+                	padding: 10px 10px;
+                	width: 80%;
+                	text-align: center;
+                	font-size: 18px;
+                	border-radius: 20px;
+                }
+
+        .contact-us-btn{
+
+        	    position: absolute;
+        	    top: 120%;
+        	    left: 40%;
+
+                 border: solid 2px black;
+                 padding: 10px 20px;
+                 border-radius: 10px;
+        }
+         .contact-us-btn a{
+
+         	    text-decoration: none;
+         	    font-size: 18px;
+         	    color: black;
+
+         	     
+         }
+          
+          .help-button{
+          	right: 5%;
+          	bottom: 5%;
+          	position: fixed;
+          	border: solid 0.25px ;
+          	border-radius:10px ;
+          	background: aqua;
+
+          }
+            .help-button a{
+            	text-decoration: none;
+            	color: black;
+            	font-size: 30px;
+            	padding: 15px 25px;
+
+
+            }
+              
+              footer{
+          background:#E0FFFF;
+          
+          width: 100%;
+          margin: 5px 1px;
+         }
+
+          
+         
+         .footer-heading{
+                 padding: 10px 0px;
+
+
+         }
+         .footer-heading a{
+      text-decoration: none;
+      color: black;
+
+         }
+         .footer-heading h1{
+            font-family: 'Fredoka One', cursive;
+
+          padding: 5px 10px;
+          display: flex;
+           
+         }
+
+         .footer-heading p{
+            font-family: 'Fredoka One', cursive;
+
+          position: relative;
+          padding: 2px 15px;
+         }
+         .icons{
+        
+        
+         position: relative;
+         margin-top: -50px;
+         margin-right: 300px;
+         padding: 0px;
+            float: right;
+           display: flex;
+           margin-right:500px ;
+         }
+          
+        .icons i{
+          padding: 8px;
+          font-size: 30px;
+        }
+         .services h1{
+
+
+            text-align: center;
+            position: absolute;
+            top: 105%;
+            left: 35%;
+            background: aqua ;
+            width: 30%;
+            border-radius:10px;
+
+
+         }
+         .lec img{
+            margin: 70px 10px ;
+          }
+          .lec a{
+
+          }
+
+
+
+               
